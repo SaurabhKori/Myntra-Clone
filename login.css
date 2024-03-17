@@ -1,0 +1,116 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #feedf4;
+    /* display: flex;
+    /* display: flex; 
+    justify-content: center;
+     align-items: center; 
+    align-content:center ;*/
+} 
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+    /* border: 2px solid; */
+    margin: 5%;
+    /* height: 1200px; */
+    
+
+}
+
+.form{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 400px;
+    height: 550px;
+    /* border: 2px solid; */
+    position: relative;
+    background-color: #ffff;
+}
+.or::before{
+    content: "Login";
+    padding-left: 12px;
+    padding-right: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#424553;
+
+}
+.or::after{
+    content: "Signup";
+    padding-left: 4px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #424553;
+
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    margin: 10px;
+    background-color: #ffff;
+}
+.inp{
+    display: inline-block;
+    border: 1px solid #d9dadd;
+    padding-top:10px;
+    padding-left: 14px;
+    height: 30px;
+    
+    
+}
+.inp span{
+    color:#424553;
+}
+.inp input{
+    outline: none;
+    width: 90px;
+    border:none;
+}
+.inp .star{
+    /* content: "*"; */
+    color:#ff3f6c;
+
+}
+.term{
+   font-size: 14px;
+   color:#424553;
+
+}
+.pol a{
+    text-decoration: none;
+    color:#ff3f6c;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 5px;
+}
+.btn button{
+    width:350px;
+    padding:10px ;
+    color:#ffff;
+    background-color: #ff3f6c;
+    font-size: 13px;
+    font-weight: bolder;
+    border: none;
+    
+}
+.get{
+    font-size: 14px;
+    color: #424553;
+
+}
+.get a{
+    text-decoration: none;
+    color: #ff3f6c;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 5px;
+}
+#error{
+    color: #ff3f6c;
+}

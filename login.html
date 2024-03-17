@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+<body>
+    <form action="" onsubmit="">
+        <div class="form" >
+            <div class="head"><img src="img/login.png" alt=""width="400px"></div><br>
+            <div class="sec">
+                <div class="or">or</div><br><br>
+                <div class="inp"><span id="code">+91 |</span><input type="tel" placeholder="Mobile Number" pattern="[0-9]{10}" minlength="10" maxlength="10" id="inp"><span class="star" id="star1">*</span></div><p id="error"></p>
+                <div class="term"><p>By continuing,I agree to the <span class="pol"><a href="">Term of Use</a></span>&<span class="pol"><a href="">Privacy Policy</a></span></p></div><br>
+                <div class="btn"><button onclick="return loginvalidation()" >CONTINUE</button></div><br>
+                <div class="get"><span>Have trouble logging in?<a href="">Get help</a></span></div>
+                
+            </div>
+        </div>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
